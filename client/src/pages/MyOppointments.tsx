@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaUserMd, FaCalendarAlt, FaClock, FaMoneyBillWave, FaCheckCircle, FaTimesCircle, FaHourglassHalf } from "react-icons/fa";
+import dotenv from "dotenv";
+dotenv.config();
 
 interface Doctor {
   id: number;
@@ -41,13 +43,12 @@ const MyOppointments = () => {
   const [error, setError] = useState<string | null>(null);
 
   const token = localStorage.getItem("token");
-
   const fetchOppointments = async () => {
     try {
       setLoading(true);
       setError(null);
 
-      const res = await fetch("http://localhost:8080/api/user/myOppointments", {
+      const res = await fetch("https://doctor-oppointment-booking.onrender.com/api/user/myOppointments", {
         headers: {
           token: `${token}`,
           "Content-Type": "application/json",

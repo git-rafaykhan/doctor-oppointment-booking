@@ -30,7 +30,7 @@ export const AppContext = ({ children }: { children: ReactNode }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const backend_url = "http://localhost:8080/api/admin/doctors";
+  const backend_url = "https://doctor-oppointment-booking.onrender.com/api/admin/doctors";
 
 
   // Fetch doctors from backend

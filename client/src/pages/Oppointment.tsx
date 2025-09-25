@@ -39,7 +39,7 @@ const Oppointment = () => {
       const slotDate = selectedDate;
       const slottime = new Date(dateTimeString);
 
-      const res = await fetch("http://localhost:8080/api/user/bookOppointment", {
+      const res = await fetch("https://doctor-oppointment-booking.onrender.com/api/user/bookOppointment", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

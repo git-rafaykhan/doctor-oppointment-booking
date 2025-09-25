@@ -12,7 +12,7 @@ interface SignUpInterface extends SignInInterface {
 
 // ---------- Signup ----------
 export const signup = async (data: SignUpInterface) => {
-  const response = await fetch(`${backend_url}/user/signup`, {
+  const response = await fetch(`https://doctor-oppointment-booking.onrender.com/user/signup`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -30,7 +30,7 @@ export const signup = async (data: SignUpInterface) => {
 
 // ---------- Signin ----------
 export const signin = async (data: SignInInterface) => {
-  const response = await fetch(`${backend_url}/user/signin`, {
+  const response = await fetch(`https://doctor-oppointment-booking.onrender.com/user/signin`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
