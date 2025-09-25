@@ -1,0 +1,106 @@
+# ---------------------------------------------------
+# Node.js / TypeScript
+# ---------------------------------------------------
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+*.tgz
+*.zip
+
+# ---------------------------------------------------
+# Logs
+# ---------------------------------------------------
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------------------------------------------------
+# Environment files
+# ---------------------------------------------------
+.env
+.env.local
+.env.*.local
+*.env
+
+# ---------------------------------------------------
+# Prisma (PostgreSQL + ORM)
+# ---------------------------------------------------
+prisma/dev.db
+prisma/dev.db-journal
+prisma/test.db
+prisma/test.db-journal
+prisma/migrations/
+
+# ---------------------------------------------------
+# Database dumps
+# ---------------------------------------------------
+*.sqlite
+*.db
+*.db-journal
+*.sql
+*.sqlite3
+
+# ---------------------------------------------------
+# Frontend build outputs
+# ---------------------------------------------------
+client/build/
+client/.cache/
+frontend-admin-doctor-client/build/
+frontend-admin-doctor-client/.cache/
+.next/
+out/
+.vite/
+*.cache
+
+# ---------------------------------------------------
+# Testing / Coverage
+# ---------------------------------------------------
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+jest-stare/
+*.tsbuildinfo
+
+# ---------------------------------------------------
+# Uploads / Temp
+# ---------------------------------------------------
+uploads/
+public/uploads/
+tmp/
+temp/
+
+# ---------------------------------------------------
+# OS / Editor files
+# ---------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# ---------------------------------------------------
+# IDE / Project settings
+# ---------------------------------------------------
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ---------------------------------------------------
+# Package managers
+# ---------------------------------------------------
+.pnp/
+.pnp.js
+.yarn-integrity
+.parcel-cache/
