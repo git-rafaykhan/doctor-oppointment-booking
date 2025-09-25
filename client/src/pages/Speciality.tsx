@@ -86,7 +86,7 @@ const Speciality = () => {
                 <p className="text-gray-500 text-sm line-clamp-3">{d.about}</p>
 
                 <div className="flex items-center justify-between mt-4">
-                  <div className="text-lg font-semibold text-blue-600">${d.fees}</div>
+                  <div className="text-lg font-semibold text-blue-600"> PKR {d.fees}</div>
                   <button onClick={()=> navigate(`/oppointment/${d.id}`)}  className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
                     Book Now
                   </button>
