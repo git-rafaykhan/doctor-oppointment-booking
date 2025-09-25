@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { FaUserMd, FaCalendarAlt, FaClock, FaMoneyBillWave, FaCheckCircle, FaTimesCircle, FaHourglassHalf } from "react-icons/fa";
-import dotenv from "dotenv";
-dotenv.config();
 
 interface Doctor {
   id: number;

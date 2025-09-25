@@ -1,4 +1,3 @@
-import { backend_url } from "../config/configs"
 
 interface SignInInterface {
   email: string;
