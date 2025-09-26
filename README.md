@@ -4,8 +4,9 @@ A full-stack **TypeScript** project for managing doctor appointments.
 This app allows **patients, doctors, and admins** to interact through a role-based system.
 
 ---
+
 ## 🌐 Live Demo
-- **Patient/Doctor App:** [doctor-oppointment-booking-don2c5za9-git-rafaykhans-projects.vercel.app](https://doctor-oppointment-booking-don2c5za9-git-rafaykhans-projects.vercel.app)  
+- **Patient/Doctor App:** [doctor-oppointment-booking-pt37ohzqi-git-rafaykhans-projects.vercel.app](https://doctor-oppointment-booking-pt37ohzqi-git-rafaykhans-projects.vercel.app)  
 - **Admin Dashboard:** [doctor-oppointment-booking-w56q-7zhf5i1kl.vercel.app](https://doctor-oppointment-booking-w56q-7zhf5i1kl.vercel.app)  
 
 ---
