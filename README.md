@@ -1,20 +1,42 @@
 # 🏥 Doctor Appointment Booking App
 
-This is a full-stack **TypeScript** project for booking doctor appointments.  
-It includes a **React frontend**, **Express backend**, and **PostgreSQL database with Prisma**.
+A full-stack **TypeScript** project for managing doctor appointments.  
+This app allows **patients, doctors, and admins** to interact through a role-based system.
+
+---
+## 🌐 Live Demo
+- **Patient/Doctor App:** [doctor-oppointment-booking-don2c5za9-git-rafaykhans-projects.vercel.app](https://doctor-oppointment-booking-don2c5za9-git-rafaykhans-projects.vercel.app)  
+- **Admin Dashboard:** [doctor-oppointment-booking-w56q-7zhf5i1kl.vercel.app](https://doctor-oppointment-booking-w56q-7zhf5i1kl.vercel.app)  
+
+---
 
 ## 🚀 Features
-- Patients can book, cancel, and view appointments  
-- Doctors can manage schedules and patient details  
-- Admin can manage doctors and appointments  
-- JWT authentication with role-based access  
+### 👤 Patient
+- Book, cancel, and view appointments  
+- Browse available doctors and specialities  
+
+### 🩺 Doctor
+- Manage availability and schedules  
+- View and manage patient appointments  
+
+### 🛡️ Admin
+- Manage doctors (add/update/remove)  
+- Monitor and control appointments  
+- Role-based access management  
+
+---
 
 ## 🛠 Tech Stack
 - **Frontend:** React + TypeScript + Tailwind CSS  
 - **Backend:** Node.js + Express + TypeScript  
 - **Database:** PostgreSQL with Prisma ORM  
+- **Authentication:** JWT (role-based access)  
+- **Deployment:** Vercel (Frontend) + Render/Other (Backend)  
 
-## ⚙️ Setup
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/doctor-oppointment-booking.git
+---
+
+## ⚙️ Setup Instructions
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/doctor-oppointment-booking.git
+cd doctor-oppointment-booking
